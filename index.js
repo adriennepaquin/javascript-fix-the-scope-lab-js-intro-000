@@ -13,8 +13,8 @@ function yourAnimal() {
   // P.S.: Hard-coding 'cat' below will not work
 
   return function innerAnimal() {
-    var animal = 'cat';
-    return animal;
+    var animal = 'cat'
+    return animal
   }
   // return animal
 }
