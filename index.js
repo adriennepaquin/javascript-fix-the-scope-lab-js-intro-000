@@ -13,6 +13,7 @@ function yourAnimal() {
   // P.S.: Hard-coding 'cat' below will not work
   var animal = 'cat'
   return function innerAnimal() {
+    var otherAnimal = 'unicorn'
     return animal
   }
   // return animal
